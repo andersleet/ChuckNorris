@@ -1,5 +1,5 @@
 # ChuckNorris
-Addon for 1.12.1 WoW that posts Chuck Norris Facts
+Addon for 1.12.1 WoW that posts Chuck Norris Facts.
 
  With no modifier it will always send a fact to your current General Chat.
 
