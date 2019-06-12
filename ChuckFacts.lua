@@ -572,5 +572,6 @@ facts = {
 	"Chuck Norris made the sun by rubbing his hands together.",
 	"Chuck Norris doesn't turn on his faucet, he stares at it until it cries.",
 	"Chuck Norris puts sunglasses on to protect the sun from his eyes.",
-	"Chuck Norris can lock a safe and keep the key inside it."
+	"Chuck Norris can lock a safe and keep the key inside it.",
+	"There is no chin behind Chuck Norris' beard. Just another fist."
 }
