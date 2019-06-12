@@ -1,4 +1,4 @@
-# ChuckNorris
+# Chuck Norris
 Addon for 1.12.1 WoW that posts Chuck Norris Facts.
 
  With no modifier it will always send a fact to your current General Chat.
@@ -6,25 +6,25 @@ Addon for 1.12.1 WoW that posts Chuck Norris Facts.
 1) Download .ZIP and extract into wow/interface/addons folder. Rename folder from "ChuckNorris-master" to "ChuckNorris".
 2) Slash commands are /cn, /chuck, /norris, and /chucknorris.
 
-Modifiers for slash commands*:
+## Modifiers for slash commands*:
+
+### Example Usage: "/cn g" will send a Chuck Norris fact to your guild, provided you are in one.
 
 \* These are the default channel numbers. If you change them they will not work as intended.
 
 
-1 - General Chat (default, no need to add)
+* 1 - General Chat (default, no need to add)
 
-2 - Trade Chat
+* 2 - Trade Chat
 
-3 - Local Defense
+* 3 - Local Defense
 
-4 - World Chat
+* 4 - World Chat
 
-s OR say - Say Channel
+* s OR say - Say Channel
 
-y OR yell - Yell Channel
+* y OR yell - Yell Channel
 
-p OR party - Party Channel
+* p OR party - Party Channel
 
-g OR guild - Guild Channel
-
-Example Usage: "/cn g" will send a Chuck Norris fact to your guild, provided you are in one.
+* g OR guild - Guild Channel
