@@ -4,7 +4,7 @@ facts = {
 "MacGyver can build an airplane out of gum and paper clips. Chuck Norris can kill him and take it.",
 "Chuck Norris doesn't read books. He stares them down until he gets the information he wants.",
 "If you ask Chuck Norris what time it is, he always answers \"Two seconds till\". After you ask \"Two seconds to what?\", he roundhouse kicks you in the face.",
-"Chuck Norris lost his virginity before his dad did.",
+"Chuck Norris lost his virginity before his dad.",
 "Since 1940, the year Chuck Norris was born, roundhouse kick related deaths have increased 13,000 percent.",
 "Chuck Norris sheds his skin twice a year.",
 "Chuck Norris once challenged Lance Armstrong in a \"Who has more testicles?\" contest. Chuck Norris won by 5.",
@@ -216,7 +216,7 @@ facts = {
 "One day Chuck Norris walked down the street with a massive erection. There were no survivors.",
 "Chuck Norris built a time machine and went back in time to stop the JFK assassination. As Oswald shot, Chuck met all three bullets with his beard, deflecting them. JFK's head exploded out of sheer amazement.",
 "Chuck Norris uses a night light. Not because Chuck Norris is afraid of the dark, but the dark is afraid of Chuck Norris.",
-"When Bruce Banner gets mad, he turns into the Hulk. When the Hulk gets mad, he turns into Chuck Norris.",
+"When Bruce Banner gets mad, he turns into the Hulk. When the Hulk gets mad, he turns into Chuck Norris. When Chuck Norris gets mad, run.",
 "Chuck Norris kills anyone that asks: \"Do you want fries with that?\". Because by now everyone should know that Chuck doesn't want fries with anything. Ever.",
 "Chuck Norris once kicked a horse in the chin. Its descendants are known today as Giraffes.",
 "Sticks and stones may break your bones, but a Chuck Norris glare will liquefy your kidneys.",
@@ -468,7 +468,7 @@ facts = {
 "Chuck Norris doesn't use reflection, reflection asks politely for his help.",
 "There is no Esc key on Chuck Norris' keyboard, because no one escapes Chuck Norris.",
 "Chuck Norris can binary search unsorted data.",
-"Chuck Norris breaks RSA 128-bit encrypted codes in milliseconds.",
+"Chuck Norris can break RSA 128-bit encrypted code in milliseconds.",
 "Chuck Norris doesn't needs try-catch, exceptions are too afraid to raise.",
 "Chuck Norris went out of an infinite loop.",
 "If Chuck Norris writes code with bugs, the bugs fix themselves.",
@@ -580,6 +580,9 @@ facts = {
 "When the Zombie Apocolypse starts, Chuck Norris won't need to survive. The zombies will need to survive Chuck Norris.",
 "If it looks like chicken, tastes like chicken, and feels like chicken but Chuck Norris says it is beef, the it is beef.",
 "Chuck Norris doesn't dial the wrong number. You pick up the wrong phone.",
-"Chuck Norris keeps a personal diary. It is commonly referred to as \"The Guinness Book of World Records\"."
+"Chuck Norris keeps a personal diary. It is commonly referred to as \"The Guinness Book of World Records\".",
+"Chuck Norris was once bitten by an Inland Taipan. Two days later the snake died.",
+"When Chuck Norris enters a room, he doesn't turn on the lights. He turns off the darkness.",
+"Chuck Norris' blood type is AK-47."
 
 }
