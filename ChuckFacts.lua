@@ -480,7 +480,7 @@ facts = {
 "Chuck Norris protocol design method has no status, requests or responses, only commands.",
 "Chuck Norris programs occupy 150% of CPU, even when they are not executing.",
 "Chuck Norris can spawn threads that complete before they are started.",
-"Chuck Norris programs do not accept input.",
+"Chuck Norris programs do not accept input. They only output Roundhouse Kicks.",
 "Chuck Norris can install iTunes without installing Quicktime.",
 "Chuck Norris doesn't need an OS.",
 "Chuck Norris' OSI network model has only one layer - Physical.",
@@ -583,6 +583,9 @@ facts = {
 "Chuck Norris keeps a personal diary. It is commonly referred to as \"The Guinness Book of World Records\".",
 "Chuck Norris was once bitten by an Inland Taipan. Two days later the snake died.",
 "When Chuck Norris enters a room, he doesn't turn on the lights. He turns off the darkness.",
-"Chuck Norris' blood type is AK-47."
+"Chuck Norris' blood type is AK-47.",
+"The reason the Holy Grail has never been recovered is because nobody is brave enough to ask Chuck Norris for his favorite coffee mug.",
+"Chuck Norris beat Halo 1, 2 and 3 on Legendary with a broken Guitar Hero controller.",
+"Chuck Norris is the only person able that can punch a cyclops between the eye."
 
 }
