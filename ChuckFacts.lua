@@ -586,6 +586,6 @@ facts = {
 "Chuck Norris' blood type is AK-47.",
 "The reason the Holy Grail has never been recovered is because nobody is brave enough to ask Chuck Norris for his favorite coffee mug.",
 "Chuck Norris beat Halo 1, 2 and 3 on Legendary with a broken Guitar Hero controller.",
-"Chuck Norris is the only person able that can punch a cyclops between the eye."
+"Chuck Norris is the only person that can punch a cyclops between the eye."
 
 }
