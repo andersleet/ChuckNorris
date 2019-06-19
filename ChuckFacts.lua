@@ -202,7 +202,7 @@ facts = {
 "As President Roosevelt said: \"We have nothing to fear but fear itself. And Chuck Norris.\"",
 "Chuck Norris just says \"no\" to drugs. If he said \"yes\", it would collapse Colombia's infrastructure.",
 "Crime does not pay - unless you are an undertaker following Walker, Texas Ranger, on a routine patrol.",
-"Chuck Norris invented the internet? just so he had a place to store his porn.",
+"Chuck Norris invented the internet just so he had a place to store his porn.",
 "Chuck Norris does not own a house. He walks into random houses and people move.",
 "It is better to give than to receive. This is especially true of a Chuck Norris roundhouse kick.",
 "Chuck Norris is the only person to ever win a staring contest against Ray Charles and Stevie Wonder.",

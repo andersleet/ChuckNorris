@@ -9,20 +9,15 @@ function arrlen(a)
 	return i
 end
 
-function NorrisFact()
-	return facts[random(1,arrlen(facts))]
+function GetNorrisFact()
+	return facts[random(1,arrlen(facts)-1)]
 end
 
-function SlashCmdList.NORRIS()
-	GeneralChannelMessage(NorrisFact())
-end
-
-function SlashCmdList.NORRIS(n)
-	i = string.upper(n)
-	f = NorrisFact()
+function PostFact(n)
 	c = nil
-	n = nil
-	
+	i = string.upper(n)
+	f = GetNorrisFact()	
+		
  	if i == "1" then				-- General
 		c = "CHANNEL"
 		n = 1
@@ -47,10 +42,17 @@ function SlashCmdList.NORRIS(n)
 	elseif i == "G" or i == "GUILD" then		-- Guild
 		c = "GUILD"
 		n = nil
- 	else						-- Default: General
-		c = "CHANNEL"
-		n = 1	
+	elseif i == "T" or i == "TEST" then		-- Test
+		print(f)
+		do return end
+  	else						-- Default: General (1)
+ 		c = "CHANNEL"
+ 		n = 1	
  	end
  	 	
  	SendChatMessage(f,c,nil,n)
+end
+
+function SlashCmdList.NORRIS(n)
+	PostFact(n)
 end
