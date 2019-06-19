@@ -576,6 +576,9 @@ facts = {
 "Chuck Norris puts sunglasses on to protect the sun from his eyes.",
 "Chuck Norris can lock a safe and keep the key inside it.",
 "There is no chin behind Chuck Norris' beard. Just another fist.",
+
+-- Props to Genki for 99% of the facts below <3
+
 "Chuck Norris once walked away from a fight with two broken ribs and a dislocated arm. He hasn't given them back yet.",
 "When the Zombie Apocolypse starts, Chuck Norris won't need to survive. The zombies will need to survive Chuck Norris.",
 "If it looks like chicken, tastes like chicken, and feels like chicken but Chuck Norris says it is beef, the it is beef.",
