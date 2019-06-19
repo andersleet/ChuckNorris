@@ -6,3 +6,4 @@
 
 ChuckFacts.lua
 ChuckNorris.lua
+ChuckNorris.xml
