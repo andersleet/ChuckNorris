@@ -591,6 +591,7 @@ facts = {
 "Chuck Norris beat Halo 1, 2 and 3 on Legendary with a broken Guitar Hero controller.",
 "Chuck Norris is the only person that can punch a cyclops between the eye.",
 "Chuck Norris has yet to get a Jeopardy question wrong. Jesus has missed twice.",
-"Once Chuck Norris was tired so he created God and told him to create everything. Just kidding; Chuck Norris never gets tired. He Roundhouse Kicked time & space instead."
+"Once Chuck Norris was tired so he created God and told him to create everything. Just kidding; Chuck Norris never gets tired. He Roundhouse Kicked time & space instead.",
+"Chuck Norris CAN lick his elbow."
 
 }
