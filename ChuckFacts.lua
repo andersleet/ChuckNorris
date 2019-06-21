@@ -577,7 +577,7 @@ facts = {
 "Chuck Norris can lock a safe and keep the key inside it.",
 "There is no chin behind Chuck Norris' beard. Just another fist.",
 
--- Props to Genki for 99% of the facts below <3
+-- Props to Genki for 99% of the fact content below <3
 
 "Chuck Norris once walked away from a fight with two broken ribs and a dislocated arm. He hasn't given them back yet.",
 "When the Zombie Apocolypse starts, Chuck Norris won't need to survive. The zombies will need to survive Chuck Norris.",
