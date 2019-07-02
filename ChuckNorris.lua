@@ -18,8 +18,8 @@ function PostFact(input)
 	local totalFactCount = arrLen(facts)
 	
 	if (cmd == nil) then									-- just slash command sent, send to general chat
-		cmd = "1"
-		n = "1"
+		cmd = "GENERAL"
+		n = 1
 		arg = 0
 	else													-- slash command sent with or without arguments
 		if (arg == nil) then								-- no argument
