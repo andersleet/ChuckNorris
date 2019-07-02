@@ -10,6 +10,8 @@ Addon for 1.12.1 WoW that posts Chuck Norris Facts.
 
 ### Example Usage: "/cn g" will send a Chuck Norris fact to your guild, provided you are in one.
 
+#### You can now add a number after the target channel (/cn g 42) to send a specific Fact.
+
 \* These are the default channel numbers. If you change them they will not work as intended.
 
 
