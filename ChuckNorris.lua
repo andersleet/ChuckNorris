@@ -44,7 +44,7 @@ function PostFact(input)
 		fact = GetRandomFact(totalFactCount)
 	end
 
-	if	   (i == "1" or i == "GENERAL" or i == 1) then
+	if (i == "1" or i == "GENERAL" or i == 1) then
 		n = 1
 	elseif (i == "2" or i == "TRADE" or i == 2) then
 		n = 2
