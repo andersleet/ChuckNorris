@@ -3,59 +3,80 @@ SLASH_NORRIS2 = "/chuck"
 SLASH_NORRIS3 = "/norris"
 SLASH_NORRIS4 = "/chucknorris"
 
-function arrlen(a)
-	local i = 1
-	for _ in pairs(a) do i = i + 1 end
-	return i
+function GetFact(i)
+	return facts[i]
 end
 
-function GetNorrisFact()
-	return facts[random(1,arrlen(facts)-1)]
+function GetRandomFact(i)
+	return GetFact(random(1, i-1))
 end
 
-function PostFact(n)
-	c = nil
-	i = string.upper(n)
-	f = GetNorrisFact()	
+function PostFact(input)
+	local sS, sE, cmd, arg = strfind(input, "%s?(%w+)%s?(%d*)")
+	local channel, n, fact = "CHANNEL", 0, ""
+	
+	local totalFactCount = arrLen(facts)
+	
+	if (cmd == nil) then									-- just slash command sent, send to general chat
+		cmd = "1"
+		n = "1"
+		arg = 0
+	else													-- slash command sent with or without arguments
+		i = strupper(cmd)
 		
- 	if i == "1" then				-- General
-		c = "CHANNEL"
+		if (arg == nil) then								-- no argument
+			arg = 0
+		elseif (tonumber(arg) == nil) then					-- non-numeric argument
+			arg = 0
+		else												-- numeric argument (get a specific fact)
+			arg = tonumber(arg)
+		end		
+		
+		if (arg > totalFactCount) then						-- if argument is larger than fact array, reset to random fact
+			arg = 0
+		end
+	end
+
+		
+	if (arg > 0) then										-- specific fact number specified
+		fact = GetFact(arg)
+	else													-- random fact from fact array
+		fact = GetRandomFact(totalFactCount)
+	end
+
+	if	   (i == "1" or i == "GENERAL" or i == 1) then
 		n = 1
- 	elseif i == "2" then				-- Trade
-		c = "CHANNEL"
+	elseif (i == "2" or i == "TRADE" or i == 2) then
 		n = 2
-	elseif i == "3" then				-- LocalDefense
-		c = "CHANNEL"
+	elseif (i == "3" or i == "LOCALDEFENSE" or i == 3) then
 		n = 3
-	elseif i == "4" then				-- World
-		c = "CHANNEL"
+	elseif (i == "4" or i == "WORLD" or i == 4) then
 		n = 4
- 	elseif i == "S" or i == "SAY" then		-- Say
-		c = "SAY"
-		n = nil
-	elseif i == "Y" or i == "YELL" then		-- Yell
-		c = "YELL"
-		n = nil
-	elseif i == "P" or i == "PARTY" then		-- Party
-		c = "PARTY"
-		n = nil
-	elseif i == "G" or i == "GUILD" then		-- Guild
-		c = "GUILD"
-		n = nil
-	elseif i == "O" or i == "OFFICER" then		-- Officer
-		c = "OFFICER"
-		n = nil
-	elseif i == "T" or i == "TEST" then		-- Test
-		print(f)
+	elseif (i == "S" or i == "SAY") then
+		channel = "SAY"
+		n = -2
+	elseif (i == "Y" or i == "YELL") then
+		channel = "YELL"
+		n = -2
+	elseif (i == "P" or i == "PARTY") then
+		channel = "PARTY"
+		n = -2
+	elseif (i == "G" or i == "GUILD") then
+		channel = "GUILD"
+		n = -2
+	elseif (i == "O" or i == "OFFICER") then
+		channel = "OFFICER"
+		n = -2
+	elseif (i == "T" or i == "TEST") then
+		print(fact)
 		do return end
-  	else						-- Default: General (1)
- 		c = "CHANNEL"
- 		n = 1	
- 	end
- 	 	
- 	SendChatMessage(f,c,nil,n)
+	else
+		n = 1	
+	end
+
+	SendChatMessage(fact, channel, nil, n)
 end
 
-function SlashCmdList.NORRIS(n)
-	PostFact(n)
+function SlashCmdList.NORRIS(args)
+	PostFact(args)
 end
