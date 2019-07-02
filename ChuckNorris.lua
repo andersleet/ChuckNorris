@@ -22,13 +22,11 @@ function PostFact(input)
 		n = "1"
 		arg = 0
 	else													-- slash command sent with or without arguments
-		i = strupper(cmd)
-		
 		if (arg == nil) then								-- no argument
 			arg = 0
 		elseif (tonumber(arg) == nil) then					-- non-numeric argument
 			arg = 0
-		else												-- numeric argument (get a specific fact)
+		else												-- numeric argument (get a specific fact index)
 			arg = tonumber(arg)
 		end		
 		
@@ -36,13 +34,14 @@ function PostFact(input)
 			arg = 0
 		end
 	end
-
 		
-	if (arg > 0) then										-- specific fact number specified
+	if (arg > 0) then										-- specific fact number specified by arg
 		fact = GetFact(arg)
 	else													-- random fact from fact array
 		fact = GetRandomFact(totalFactCount)
 	end
+
+	i = strupper(cmd)
 
 	if (i == "1" or i == "GENERAL" or i == 1) then
 		n = 1
