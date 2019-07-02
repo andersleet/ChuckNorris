@@ -3,19 +3,15 @@ SLASH_NORRIS2 = "/chuck"
 SLASH_NORRIS3 = "/norris"
 SLASH_NORRIS4 = "/chucknorris"
 
-function GetFact(i)
-	return facts[i]
-end
-
-function GetRandomFact(i)
-	return GetFact(random(1, i-1))
-end
-
 function PostFact(input)
 	local sS, sE, cmd, arg = strfind(input, "%s?(%w+)%s?(%d*)")
 	local channel, n, fact = "CHANNEL", 0, ""
 	
 	local totalFactCount = arrLen(facts)
+
+--	print(totalFactCount)
+
+--	do return end
 	
 	if (cmd == nil) then									-- just slash command sent, send to general chat
 		cmd = "GENERAL"
@@ -30,7 +26,7 @@ function PostFact(input)
 			arg = tonumber(arg)
 		end		
 		
-		if (arg > totalFactCount) then						-- if argument is larger than fact array, reset to random fact
+		if (arg >= totalFactCount) then						-- if argument is larger than fact array, reset to random fact
 			arg = 0
 		end
 	end
@@ -41,32 +37,32 @@ function PostFact(input)
 		fact = GetRandomFact(totalFactCount)
 	end
 
-	i = strupper(cmd)
+	cmd = strupper(cmd)
 
-	if (i == "1" or i == "GENERAL" or i == 1) then
+	if (cmd == "1" or cmd == "GENERAL") then
 		n = 1
-	elseif (i == "2" or i == "TRADE" or i == 2) then
+	elseif (cmd == "2" or cmd == "TRADE") then
 		n = 2
-	elseif (i == "3" or i == "LOCALDEFENSE" or i == 3) then
+	elseif (cmd == "3" or cmd == "LOCALDEFENSE") then
 		n = 3
-	elseif (i == "4" or i == "WORLD" or i == 4) then
+	elseif (cmd == "4" or cmd == "WORLD") then
 		n = 4
-	elseif (i == "S" or i == "SAY") then
+	elseif (cmd == "S" or cmd == "SAY") then
 		channel = "SAY"
 		n = -2
-	elseif (i == "Y" or i == "YELL") then
+	elseif (cmd == "Y" or cmd == "YELL") then
 		channel = "YELL"
 		n = -2
-	elseif (i == "P" or i == "PARTY") then
+	elseif (cmd == "P" or cmd == "PARTY") then
 		channel = "PARTY"
 		n = -2
-	elseif (i == "G" or i == "GUILD") then
+	elseif (cmd == "G" or cmd == "GUILD") then
 		channel = "GUILD"
 		n = -2
-	elseif (i == "O" or i == "OFFICER") then
+	elseif (cmd == "O" or cmd == "OFFICER") then
 		channel = "OFFICER"
 		n = -2
-	elseif (i == "T" or i == "TEST") then
+	elseif (cmd == "T" or cmd == "TEST") then
 		print(fact)
 		do return end
 	else
