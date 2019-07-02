@@ -28,3 +28,5 @@ Addon for 1.12.1 WoW that posts Chuck Norris Facts.
 * p OR party - Party Channel
 
 * g OR guild - Guild Channel
+
+* o OR officer - Officer Channel
