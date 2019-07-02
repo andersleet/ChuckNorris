@@ -4,6 +4,7 @@
 ## Author: andersleet
 ## Version 1.0
 
+functions.lua
 ChuckFacts.lua
 ChuckNorris.lua
 ChuckNorris.xml
