@@ -42,6 +42,9 @@ function PostFact(n)
 	elseif i == "G" or i == "GUILD" then		-- Guild
 		c = "GUILD"
 		n = nil
+	elseif i == "O" or i == "OFFICER" then		-- Officer
+		c = "OFFICER"
+		n = nil
 	elseif i == "T" or i == "TEST" then		-- Test
 		print(f)
 		do return end
