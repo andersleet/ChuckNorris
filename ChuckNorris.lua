@@ -8,10 +8,6 @@ function PostFact(input)
 	local channel, n, fact = "CHANNEL", 0, ""
 	
 	local totalFactCount = arrLen(facts)
-
---	print(totalFactCount)
-
---	do return end
 	
 	if (cmd == nil) then									-- just slash command sent, send to general chat
 		cmd = "GENERAL"
@@ -49,19 +45,14 @@ function PostFact(input)
 		n = 4
 	elseif (cmd == "S" or cmd == "SAY") then
 		channel = "SAY"
-		n = -2
 	elseif (cmd == "Y" or cmd == "YELL") then
 		channel = "YELL"
-		n = -2
 	elseif (cmd == "P" or cmd == "PARTY") then
 		channel = "PARTY"
-		n = -2
 	elseif (cmd == "G" or cmd == "GUILD") then
 		channel = "GUILD"
-		n = -2
 	elseif (cmd == "O" or cmd == "OFFICER") then
 		channel = "OFFICER"
-		n = -2
 	elseif (cmd == "T" or cmd == "TEST") then
 		print(fact)
 		do return end
