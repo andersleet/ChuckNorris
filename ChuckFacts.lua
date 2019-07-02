@@ -561,7 +561,7 @@ facts = {
 "Chuck Norris stared evil in the face, and it backed down.",
 "Chuck Norris can split the atom. With his bare hands.",
 "The United States could save billions in defense funding if they trade the Military for Chuck Norris.",
-"Scientists believe the world began with the \"Big Bang\". Chuck Norris shrugged it off as \"a bad case of gas\`".",
+"Scientists believe the world began with the \"Big Bang\". Chuck Norris shrugged it off as \"a bad case of gas\".",
 "Chuck Norris eats eight meals a day. The first seven are steak and the last is the rest of the cow.",
 "Chuck Norris's body temperature is 98.6 degrees. Celsius.",
 "The active ingredient in Red Bull is Chuck Norris's sweat.",
