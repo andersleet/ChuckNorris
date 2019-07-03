@@ -596,12 +596,13 @@ facts = {
 "The leading hand sanitizers claim they can kill 99.9% of germs. Chuck Norris can kill 100% of whatever he wants.",
 "Chuck Norris' calendar goes straight from March 31st to April 2nd. No one can fool Chuck Norris.",
 "On a high school math test, Chuck Norris put down \"Violence\" for each answer. He got an A+ on the test because Chuck Norris solves all his problems with Violence.",
+"Chuck Norris can't turn water into wine, but he can turn you into blood",
 
 -- Props to Genki (Elysium - Nethergarde) for 99% of the fact content below <3
 
 "Chuck Norris once walked away from a fight with two broken ribs and a dislocated arm. He hasn't given them back yet.",
 "When the Zombie Apocolypse starts, Chuck Norris won't need to survive. The zombies will need to survive Chuck Norris.",
-"If it looks like chicken, tastes like chicken, and feels like chicken but Chuck Norris says it is beef, the it is beef.",
+"If it looks like chicken, tastes like chicken, and smells like chicken but Chuck Norris says it is beef, it is beef.",
 "Chuck Norris doesn't dial the wrong number. You pick up the wrong phone.",
 "Chuck Norris keeps a personal diary. It is commonly referred to as \"The Guinness Book of World Records\".",
 "Chuck Norris was once bitten by an Inland Taipan. After five agonizing days the snake finally died.",
@@ -609,7 +610,7 @@ facts = {
 "Chuck Norris' blood type is AK-47.",
 "The reason the Holy Grail has never been recovered is because nobody is brave enough to ask Chuck Norris for his favorite coffee mug.",
 "Chuck Norris beat Halo 1, 2 and 3 on Legendary with a broken Guitar Hero controller.",
-"Chuck Norris is the only being that can punch a cyclops between the eye.",
+"Chuck Norris can punch a cyclops between the eye.",
 "Chuck Norris has yet to get a Jeopardy question wrong. Jesus has missed twice.",
 "Chuck Norris CAN lick his elbow."
 
