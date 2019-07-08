@@ -553,7 +553,7 @@ facts = {
 "Chuck Norris has to use a stunt double when he does crying scenes.",
 "Chuck Norris successfully seperated twins conjoined at the head by roundkicking them in the face.",
 "Dinosaurs didn't go extinct. They all committed suicide because they heard Chuck Norris was coming.",
-"Chuck Norris's sweat can bur holes in concrete.",
+"Chuck Norris's sweat can burn holes in concrete.",
 "The wind of Chuck Norris’s round house kick can be felt from 1600 miles away.",
 "Chuck Norris has held the World Championship in every weight class at the same time.",
 "There are four legal methods of execution in the United States: lethal injection, gas chamber, electric chair and Chuck Norris.",
