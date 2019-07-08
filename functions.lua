@@ -10,6 +10,6 @@ end
 
 function GetRandomFact(max)
 	local fN = random(1, max-1)
-	print("Random Norris Fact #" .. fN)
+	print("Norris Fact #" .. fN)
 	return GetFact(fN)
 end
