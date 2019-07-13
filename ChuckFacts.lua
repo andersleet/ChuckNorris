@@ -597,6 +597,7 @@ facts = {
 "Chuck Norris' calendar goes straight from March 31st to April 2nd. No one can fool Chuck Norris.",
 "On a high school math test, Chuck Norris put down \"Violence\" for each answer. He got an A+ on the test because Chuck Norris solves all his problems with Violence.",
 "Chuck Norris can't turn water into wine, but he can turn you into blood",
+"Prometheus did not give humans fire, Chuck Norris did by roundhouse kicking Zeus in the face. Instead of admitting he lost to a mortal, and to avoid having his ass kicked a second time, Zeus punished Prometheus instead.",
 
 -- Props to Genki (Elysium - Nethergarde) for 99% of the fact content below <3
 
