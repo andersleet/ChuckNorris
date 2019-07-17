@@ -189,6 +189,7 @@ facts = {
 "Chuck Norris was what Willis was talkin' about.",
 "Google won't search for Chuck Norris because it knows you don't find Chuck Norris, he finds you.",
 "Chuck Norris can lead a horse to water AND make it drink.",
+"Chuck Norris can lead a horse to land AND make it drink.",
 "Nagasaki never had a bomb dropped on it. Chuck Norris jumped out of a plane and punched the ground",
 "It is scientifically impossible for Chuck Norris to have had a mortal father. The most popular theory is that he went back in time and fathered himself.",
 "Chuck Norris destroyed the periodic table, because Chuck Norris only recognizes the element of surprise.",
