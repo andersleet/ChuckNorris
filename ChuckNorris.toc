@@ -5,6 +5,8 @@
 ## Version 1.0
 
 functions.lua
-ChuckFacts.lua
+ChuckFacts-en.lua
+
+
 ChuckNorris.lua
 ChuckNorris.xml
