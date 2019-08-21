@@ -1,7 +1,7 @@
 # Chuck Norris
-Addon for 1.12.1 WoW that posts Chuck Norris Facts.
+Addon for 1.12.1 WoW (Vanilla) that posts Chuck Norris Facts.
 
- With no modifier it will always send a fact to your current General Chat.
+With no modifier it will always send a fact to your current General Chat.
 
 1) Download .ZIP and extract into wow/interface/addons folder. Rename folder from "ChuckNorris-master" to "ChuckNorris".
 2) Slash commands are /cn, /chuck, /norris, and /chucknorris.
