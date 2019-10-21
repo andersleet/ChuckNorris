@@ -42,8 +42,6 @@ function PostFact(input)
 		n = 2
 	elseif (cmd == "3" or cmd == "LOCALDEFENSE") then
 		n = 3
-	elseif (cmd == "4" or cmd == "WORLD") then
-		n = 4
 	elseif (cmd == "S" or cmd == "SAY") then
 		channel = "SAY"
 	elseif (cmd == "Y" or cmd == "YELL") then
@@ -58,7 +56,11 @@ function PostFact(input)
 		print(fact)
 		do return end
 	else
-		n = 1	
+		n = tonumber(cmd)
+		local id, name = GetChannelName(n)
+		if (id == 0 or name == nil) then					-- if channel doesnt exist, send to general chat
+			n = 1
+		end
 	end
 
 	SendChatMessage(fact, channel, nil, n)
