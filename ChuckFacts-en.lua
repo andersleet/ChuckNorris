@@ -613,6 +613,9 @@ facts = {
 "Chuck Norris beat Halo 1, 2 and 3 on Legendary with a broken Guitar Hero controller.",
 "Chuck Norris can punch a cyclops between the eye.",
 "Chuck Norris has yet to get a Jeopardy question wrong. Jesus has missed twice.",
-"Chuck Norris CAN lick his elbow."
+"Chuck Norris CAN lick his elbow.",
+  
+ "What is better than Chuck Norris? The great deals he can get you on a home gym system." 
+ 
 
 }
