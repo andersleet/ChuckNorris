@@ -1,4 +1,4 @@
-## Interface: 11210
+## Interface: 90002
 ## Title: Chuck Norris
 ## Notes: Chuck Norris Facts
 ## Author: andersleet
