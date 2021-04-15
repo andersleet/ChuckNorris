@@ -10,27 +10,27 @@ function PostFact(input)
 	
 	local totalFactCount = arrLen(facts)
 	
-	if (cmd == nil) then									-- just slash command sent, send to general chat
+	if (cmd == nil) then										-- just slash command sent, send to general chat
 		cmd = "GENERAL"
 		n = 1
 		arg = 0
-	else													-- slash command sent with or without arguments
-		if (arg == nil) then								-- no argument
+	else												-- slash command sent with or without arguments
+		if (arg == nil) then									-- no argument
 			arg = 0
-		elseif (tonumber(arg) == nil) then					-- non-numeric argument
+		elseif (tonumber(arg) == nil) then							-- non-numeric argument
 			arg = 0
-		else												-- numeric argument (get a specific fact index)
+		else											-- numeric argument (get a specific fact index)
 			arg = tonumber(arg)
 		end		
 		
-		if (arg >= totalFactCount) then						-- if argument is larger than fact array, reset to random fact
+		if (arg >= totalFactCount) then								-- if argument is larger than fact array, reset to random fact
 			arg = 0
 		end
 	end
 		
 	if (arg > 0) then										-- specific fact number specified by arg
-		fact = GetFact(arg)
-	else													-- random fact from fact array
+		fact = GetFact(arg-2)									-- offset for array file line
+	else												-- random fact from fact array
 		fact = GetRandomFact(totalFactCount)
 	end
 
@@ -58,12 +58,12 @@ function PostFact(input)
 	else
 		n = tonumber(cmd)
 		local id, name = GetChannelName(n)
-		if (id == 0 or name == nil) then					-- if channel doesnt exist, send to general chat
+		if (id == 0 or name == nil) then							-- if channel doesnt exist, send to general chat
 			n = 1
 		end
 	end
 
-	SendChatMessage(fact, channel, nil, n)
+	SendChatMessage((fact-2), channel, nil, n)
 end
 
 function SlashCmdList.NORRIS(args)
