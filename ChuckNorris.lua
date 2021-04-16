@@ -63,7 +63,7 @@ function PostFact(input)
 		end
 	end
 
-	SendChatMessage((fact-2), channel, nil, n)
+	SendChatMessage(fact, channel, nil, n)
 end
 
 function SlashCmdList.NORRIS(args)
