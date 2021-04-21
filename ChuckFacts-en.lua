@@ -1,6 +1,4 @@
-facts = {
-
-"Chuck Norris uses ribbed condoms inside out, so he gets the pleasure.",
+facts = {"Chuck Norris uses ribbed condoms inside out, so he gets the pleasure.",
 "MacGyver can build an airplane out of gum and paper clips. Chuck Norris can kill him and take it.",
 "Chuck Norris doesn't read books. He stares them down until he gets the information he wants.",
 "If you ask Chuck Norris what time it is, he always answers \"Two seconds 'til\". After you ask \"Two seconds to what?\", he Roundhouse Kicks you in the face.",
@@ -457,7 +455,7 @@ facts = {
 "Chuck Norris doesn't use GUI, he prefers COMMAND line.",
 "Chuck Norris doesn't use Oracle, he is the Oracle.",
 "Jesus can walk on water, but Chuck Norris can swim through land.",
-"When Chuck Norris break the build, you can't fix it, because there is not a single line of code left.",
+"When Chuck Norris breaks the build, you can't fix it, because there is not a single line of code left.",
 "Chuck Norris types with one finger. He points it at the keyboard and the keyboard does the rest.",
 "Chuck Norris' programs can pass the Turing Test by staring at the interrogator.",
 "Chuck Norris' brain waves are suspected to be harmful to cell phones.",
@@ -597,10 +595,7 @@ facts = {
 "Chuck Norris' calendar goes straight from March 31st to April 2nd. No one can fool Chuck Norris.",
 "On a high school math test, Chuck Norris put down \"Violence\" for each answer. He got an A+ on the test because Chuck Norris solves all his problems with Violence.",
 "Chuck Norris can't turn water into wine, but he can turn you into blood",
-"Prometheus did not give humans fire, Chuck Norris did by roundhouse kicking Zeus in the face. Instead of admitting he lost to a mortal, and to avoid having his ass kicked a second time, Zeus punished Prometheus instead.",
-
--- Props to Genki (Elysium - Nethergarde) for 99% of the fact content below <3
-
+"Prometheus did not give humans fire, Chuck Norris did by roundhouse kicking Zeus in the face. Instead of admitting he lost to a mortal, and to avoid having his ass kicked a second time, Zeus punished Prometheus instead.",-- Props to Genki (Elysium - Nethergarde) for 99% of the fact content below <3
 "Chuck Norris once walked away from a fight with two broken ribs and a dislocated arm. He hasn't given them back yet.",
 "When the Zombie Apocolypse starts, Chuck Norris won't need to survive. The zombies will need to survive Chuck Norris.",
 "If it looks like chicken, tastes like chicken, and smells like chicken but Chuck Norris says it is beef, it is beef.",
@@ -613,9 +608,5 @@ facts = {
 "Chuck Norris beat Halo 1, 2 and 3 on Legendary with a broken Guitar Hero controller.",
 "Chuck Norris can punch a cyclops between the eye.",
 "Chuck Norris has yet to get a Jeopardy question wrong. Jesus has missed twice.",
-"Chuck Norris CAN lick his elbow.",
-  
- "What is better than Chuck Norris? The great deals he can get you on a home gym system." 
- 
-
-}
+"Chuck Norris CAN lick his elbow.",  
+"What is better than Chuck Norris? The great deals he can get you on a home gym system."}
