@@ -6,42 +6,46 @@ SLASH_NORRIS5 = "/cnf"
 
 function PostFact(input)
 	local sS, sE, cmd, arg = strfind(input, "%s?(%w+)%s?(%d*)")
-	local channel, n, fact = "CHANNEL", 0, ""
-	
+	--local channel, channelID, fact = "CHANNEL", 0, ""
+	--local channel, channelID, fact, totalFactCount = "CHANNEL", 0, "", arrLen(facts)	
+	--local totalFactCount = arrLen(facts)
+	local channel = "CHANNEL"
+	local channelID = 0
+	local fact = ""
 	local totalFactCount = arrLen(facts)
 	
-	if (cmd == nil) then										-- just slash command sent, send to general chat
+	if (cmd == nil) then									-- just slash command sent, send to general chat
 		cmd = "GENERAL"
-		n = 1
+		channelID = 1
 		arg = 0
-	else												-- slash command sent with or without arguments
-		if (arg == nil) then									-- no argument
+	else													-- slash command sent with or without arguments
+		if (arg == nil) then								-- no argument
 			arg = 0
-		elseif (tonumber(arg) == nil) then							-- non-numeric argument
+		elseif (tonumber(arg) == nil) then					-- non-numeric argument, reset to no argument
 			arg = 0
-		else											-- numeric argument (get a specific fact index)
+		else												-- numeric argument to get a specific fact from the array
 			arg = tonumber(arg)
 		end		
 		
-		if (arg >= totalFactCount) then								-- if argument is larger than fact array, reset to random fact
+		if (arg >= totalFactCount) then						-- if argument is larger than fact array, reset to no argument
 			arg = 0
 		end
 	end
 		
 	if (arg > 0) then										-- specific fact number specified by arg
-		fact = GetFact(arg-2)									-- offset for array file line
-	else												-- random fact from fact array
+		fact = GetFact(arg)
+	else													-- random fact from fact array
 		fact = GetRandomFact(totalFactCount)
 	end
 
 	cmd = strupper(cmd)
 
 	if (cmd == "1" or cmd == "GENERAL") then
-		n = 1
+		channelID = 1
 	elseif (cmd == "2" or cmd == "TRADE") then
-		n = 2
+		channelID = 2
 	elseif (cmd == "3" or cmd == "LOCALDEFENSE") then
-		n = 3
+		channelID = 3
 	elseif (cmd == "S" or cmd == "SAY") then
 		channel = "SAY"
 	elseif (cmd == "Y" or cmd == "YELL") then
@@ -52,18 +56,24 @@ function PostFact(input)
 		channel = "GUILD"
 	elseif (cmd == "O" or cmd == "OFFICER") then
 		channel = "OFFICER"
-	elseif (cmd == "T" or cmd == "TEST") then
+	
+	--elseif (cmd == "W" or cmd = "WHISPER") then
+		--print("maybe?")
+		---- looks like I may need to capture another arg for whispers to get this bit to work; channelID var may need to be set to whisper target
+		---- also errors thrown when this conditional is uncommented?
+	
+	elseif (cmd == "T" or cmd == "TEST") then				-- mostly for debugging
 		print(fact)
 		do return end
 	else
-		n = tonumber(cmd)
-		local id, name = GetChannelName(n)
-		if (id == 0 or name == nil) then							-- if channel doesnt exist, send to general chat
-			n = 1
+		channelID = tonumber(cmd)
+		local id, name = GetChannelName(channelID)
+		if (id == 0 or name == nil) then					-- if channel doesnt exist, send to general chat
+			channelID = 1
 		end
 	end
 
-	SendChatMessage(fact, channel, nil, n)
+	SendChatMessage(fact, channel, nil, channelID)
 end
 
 function SlashCmdList.NORRIS(args)
