@@ -608,5 +608,5 @@ facts = {"Chuck Norris uses ribbed condoms inside out, so he gets the pleasure."
 "Chuck Norris beat Halo 1, 2 and 3 on Legendary with a broken Guitar Hero controller.",
 "Chuck Norris can punch a cyclops between the eye.",
 "Chuck Norris has yet to get a Jeopardy question wrong. Jesus has missed twice.",
-"Chuck Norris CAN lick his elbow.",  
-"What is better than Chuck Norris? The great deals he can get you on a home gym system."}
+"Chuck Norris CAN lick his elbow.",
+"Michael Phelps may be the best Olympic Swimmer, but Chuck Norris can swim faster than him through the land."}
