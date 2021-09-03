@@ -14,27 +14,27 @@ function PostFact(input)
 	local fact = ""
 	local totalFactCount = arrLen(facts)
 	
-	if (cmd == nil) then									-- just slash command sent, send to general chat
+	if (cmd == nil) then						-- just slash command sent, send to general chat
 		cmd = "GENERAL"
 		channelID = 1
 		arg = 0
-	else													-- slash command sent with or without arguments
-		if (arg == nil) then								-- no argument
+	else								-- slash command sent with or without arguments
+		if (arg == nil) then					-- no argument
 			arg = 0
-		elseif (tonumber(arg) == nil) then					-- non-numeric argument, reset to no argument
+		elseif (tonumber(arg) == nil) then			-- non-numeric argument, reset to no argument
 			arg = 0
-		else												-- numeric argument to get a specific fact from the array
+		else							-- numeric argument to get a specific fact from the array
 			arg = tonumber(arg)
 		end		
 		
-		if (arg >= totalFactCount) then						-- if argument is larger than fact array, reset to no argument
+		if (arg >= totalFactCount) then				-- if argument is larger than fact array, reset to no argument
 			arg = 0
 		end
 	end
 		
-	if (arg > 0) then										-- specific fact number specified by arg
+	if (arg > 0) then						-- specific fact number specified by arg
 		fact = GetFact(arg)
-	else													-- random fact from fact array
+	else								-- random fact from fact array
 		fact = GetRandomFact(totalFactCount)
 	end
 
@@ -62,13 +62,13 @@ function PostFact(input)
 		---- looks like I may need to capture another arg for whispers to get this bit to work; channelID var may need to be set to whisper target
 		---- also errors thrown when this conditional is uncommented?
 	
-	elseif (cmd == "T" or cmd == "TEST") then				-- mostly for debugging
+	elseif (cmd == "T" or cmd == "TEST") then			-- mostly for debugging
 		print(fact)
 		do return end
 	else
 		channelID = tonumber(cmd)
 		local id, name = GetChannelName(channelID)
-		if (id == 0 or name == nil) then					-- if channel doesnt exist, send to general chat
+		if (id == 0 or name == nil) then			-- if channel doesnt exist, send to general chat
 			channelID = 1
 		end
 	end
